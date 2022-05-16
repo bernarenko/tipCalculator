@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tip Calculator</title>
+    <title>Easy to use tip Calculator</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Easy to use tip Calculator</h1>
+        <h1>Tip Calculator</h1>
     </header>
+    <main>
+        <i id="cif">$</i><input type="number" name="money" id="currency">
+        <p>
+            Tip: 
+        </p>
+        <input type="range" name="sliderPercent" id="sliderPercent" min="1" max="100" value="50" onclick="totalBillFunc()"> 
+        <input type="number" name="numeralPercent" id="numeralPercent" onclick="numeralPercent()">
 
+        <div>
+            <h2>Results</h2>
+            <p>
+                Tip Amount
+                <input type="number" name="tipAmount" id="tipAmount" value="0">
+            </p>
+            <p>
+                Total bill with tip
+                <input type="number" name="totalAmount" id="totalAmount" value="0">
+            </p>
+            
+            
+        </div>
+
+    </main>
 
     <script src="script/main.js"></script>
 </body>

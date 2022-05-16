@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  padding: 0;
+}
+
+
+body {
+    background-color: darkgrey;
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+header {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25vh;
+    padding: 1px;
+    text-align: center;
+
+}
+
+main {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.4em;
+    padding-left: 30%;
+    padding-top: 0.5em;
+}
+
+footer {
+    background-color: red;
+}
+
+h2 {}
+
+
+
+input#sliderPercent {
+    display: flexbox;
+    width: 400px;
+}
+input#numeralPercent {
+    width: 1.3em;
+}
+input#currency {
+    height: 2em;
+    
+}
+i#cif {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: darkgray;
+    padding: 7px;
+    
+}
+
